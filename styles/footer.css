@@ -1,0 +1,108 @@
+.footer_block{
+    height: 60.5vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-darkgreen);
+}
+
+.footer_menu{
+    margin-left: 14.3%;
+    display: flex;
+    flex-direction: column;
+    font-family: LatoR;
+}
+
+.footer_menu p{
+    margin: 0;
+    margin-top: 75%;
+    font-size: 3.7vh;
+    font-family: LatoBl;
+    color: var(--color-white);
+}
+
+.footer_menu a{
+    margin-top: 47%;
+    font-size: 2.3vh;
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.footer_social{
+    margin-left: 18%;
+    margin-bottom: 2.1%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.footer_social div{
+    width: 5.063vw;
+    height: 9vh;
+    margin-left: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: var(--color-white);
+}
+
+.footer_social div:first-child{
+    margin-left: 0;
+}
+
+.footer_social div:nth-child(2n){
+    background-image: conic-gradient(from 180deg at 50% 50%, #80A4CE 0%, #F289AA 17%, #C68BF0 29%, #D164DA 43%, #C963E8 61%, #BFC2E8 72%, #FFC999 80%, #D0D8C9 88%, #BAD0F1 93%, #CED8CB 99%);
+}
+
+.footer_social div img{
+    height: 33%;
+}
+
+.footer_download {
+    margin-left: 15%;
+    margin-bottom: 2.1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.footer_download p{
+    margin-bottom: 6.5%;
+    font-family: PoppinsL;
+    font-size: 1.85vh;
+    text-align: center;
+    color: var(--color-white);
+}
+
+.footer_download_images{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.footer_download_images div{
+    height: 6vh;
+    width: 11.2vw;
+    margin-right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.5vh;
+    background-color: var(--color-black);
+}
+
+.footer_download_images div img{
+    height: 45%;
+    margin-right: 5%;
+}
+
+@media screen and (max-width:1600px){
+    .footer_social div{
+        width: 5.4vw;
+    }
+
+    .footer_download{
+        margin-left: 13%;
+    }
+}

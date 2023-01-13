@@ -1,0 +1,80 @@
+.story_block{
+    width: 100%;
+    height: 85.5vh;
+    background-color: var(--color-darkgreen);
+    padding: 12% 10.7% 9.2% 10.8%;
+}
+
+.story_main{
+    display: flex;
+    flex-direction: row;
+}
+
+.story_text{
+    margin-right: 2.1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.story_text h1{
+    margin: 0;
+    margin-top: 12%;
+    font-size: 4.65vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    color: var(--color-white);
+    line-height: 157%;
+}
+
+.story_text p{
+    margin: 0;
+    margin-top: 5.7%;
+    font-size: 2.3vh;
+    font-family: LatoR;
+    color: var(--color-white);
+}
+
+.story_text button{
+    width: 44%;
+    height: 11.5%;
+    margin-top: 10%;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    font-size: 20px;
+    font-family: LatoR;
+    border: 1px solid var(--color-green);
+    border-radius: 3%;
+    cursor: pointer;
+}
+
+.story_video img{
+    position: relative;
+}
+
+.story_video img:last-child{ 
+    top: -50%;
+    left: 45%;
+    z-index: 2;
+}
+
+@media screen and (max-width: 1600px) {
+    .story_block{
+        padding-top: 8%;
+    }
+
+    .story_text h1{
+        font-size: 5vh;
+    }
+
+    .story_text button{
+        height: 15%;
+    }
+
+    .story_video img:first-child{
+        width: 115%;      
+    }
+
+    .story_video img:last-child{
+        left: 50%;
+    }
+}

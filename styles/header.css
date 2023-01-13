@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+}
+
+.main_head{
+    font-family: LatoR, sans-serif;
+}
+
+.head{
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid var(--color-grey); 
+}
+
+.logo{
+    font-family: LatoBl, sans-serif;
+    font-size: 2.6vh;
+    color: var(--color-green);
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 9%;
+    margin-right: 15%;
+}
+
+.menu a{
+    margin-left: 10%;
+}
+
+.menu a:first-child{
+    margin-left: 0px;
+}
+
+.menu a,
+.sign a{
+    font-size: 1.85vh;
+    text-decoration: none;
+    color: var(--color-black);
+    white-space: nowrap;
+}
+
+.sign{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sign button,
+.headline button{
+    font-family: LatoR;
+    background-color: var(--color-green);
+    color: var(--color-white);
+    border: 1px solid var(--color-green);
+    border-radius: 0.4vh;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.sign button{
+    width: 9.4vw;
+    height: 4.65vh;
+    margin-left: 10%;
+    padding: 5.5% 21%;
+    font-size: 1.66vh;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(112.58deg, var(--color-white) 15.15%, rgba(255, 255, 255, 0) 53.07%, rgba(0, 0, 0, 0.1)), url("../images/background.png"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headline{
+    position: absolute;
+    top: 25%;
+    left: 13.5%;
+    width: 30%;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+.headline h1{
+    margin: 0;
+    font-size: 6vh;
+    color: var(--color-green);
+}
+
+.headline p{
+    margin: 0;
+    margin-top: 7%;
+    margin-bottom: 10%;
+    width: 95%;
+    font-size: 1.85vh;
+    font-family: LatoR;
+    line-height: 30px;
+    color: var(--color-darkgrey);
+    text-align: left;
+}
+
+.headline button{
+    width: 12vw;
+    height: 6vh;
+    padding: 3.5% 8.7%;
+    font-size: 1.9vh;
+}
+
+@media screen and (max-width:1600px){
+    .headline h1{
+        font-size: 7vh;
+    }
+
+    .headline p{
+        font-size: 2vh;
+    }
+}

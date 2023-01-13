@@ -1,0 +1,19 @@
+@font-face{
+    font-family: LatoBl;
+    src: url("../fonts/Lato/Lato-Black.ttf");
+}
+
+@font-face{
+    font-family: LatoB;
+    src: url("../fonts/Lato/Lato-Bold.ttf");
+}
+
+@font-face{
+    font-family: LatoR;
+    src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: PoppinsL;
+    src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
